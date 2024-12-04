@@ -3,7 +3,7 @@
 # 👋 Hi, I'm Oleksandr
 
 ## 👨‍🎓 About Me
-I am a student at Kyiv Polytechnic Institute, majoring in 121 Software Enginering on Faculty of Informatics and Computer Engineering. As a full stack developer, I have a B2 level proficiency in English and my native language is Ukrainian. Currently, I am interning as a full stack developer, enhancing my skills and gaining hands-on experience.
+I am a student at Kyiv Polytechnic Institute, majoring in Software Enginering on Faculty of Informatics and Computer Engineering. As a full stack developer, I have a B2 level proficiency in English and my native language is Ukrainian. Currently, I am working full-time as a backend developer. 
 
 ## 💼 Professional Background
 I have a strong foundation in Python and am currently expanding my knowledge in JavaScript and TypeScript. My experience spans multiple programming languages and technologies, including:
