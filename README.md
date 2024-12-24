@@ -29,6 +29,14 @@ I have a strong foundation in Python and am currently expanding my knowledge in 
 ## 🎯 Interests
 I am passionate about building my career as a full stack developer. I enjoy my studies at university and love riding in my free time.
 
+## Some charts
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sokolovgit&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sokolovgit&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
 ## 📫 Contact Me
 - **Email:** write2sokolov@gmail.com
 - **Telegram:** [@qwertannov](https://t.me/qwertannov)
