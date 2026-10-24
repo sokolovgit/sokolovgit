@@ -1,0 +1,61 @@
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  output-branch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Fetch terminal stats renderer
+        run: |
+          git clone --quiet https://github.com/seuthootDev/github-readme-insight-terminal-ascii.git "$RUNNER_TEMP/terminal-ascii"
+          git -C "$RUNNER_TEMP/terminal-ascii" checkout --quiet 0a4b25d55637007041d70ba2f1b1816ee5ca7ec4
+          npm ci --prefix "$RUNNER_TEMP/terminal-ascii" --ignore-scripts --silent
+
+      - name: Render terminal stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/terminal-stats.mjs "$RUNNER_TEMP/terminal-ascii" "${{ github.repository_owner }}" dist
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  bonsai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      # v1.0.0
+      - uses: egorthinks/git-bonsai@665258cab3f304cfb33a96fc7bf108cec1f452f3
+        with:
+          output-dir: assets/bonsai
