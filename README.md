@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Oleksandr+%F0%9F%91%8B;Middle+backend+engineer+at+OBRIO;Event-driven+systems+%C2%B7+data+%C2%B7+AI+tooling" alt="Hi, I'm Oleksandr — middle backend engineer at OBRIO" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Oleksandr+%F0%9F%91%8B;Middle+backend+engineer+at+OBRIO;Event-driven+systems+%C2%B7+data+%C2%B7+AI+tooling" alt="Hi, I'm Oleksandr — middle backend engineer at OBRIO" />
 
 Middle backend engineer at **OBRIO** · 4th-year Software Engineering student at **KPI FICE** · Kyiv, Ukraine
 
