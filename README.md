@@ -12,6 +12,8 @@ Middle backend engineer at **OBRIO** · 4th-year Software Engineering student at
 
 ### About
 
+<img src="assets/bonsai/bonsai.gif" align="right" width="170" alt="Pixel-art bonsai grown from my commit history" />
+
 I work on the microservice backend of a consumer product with 70M+ users: TypeScript and NestJS mostly, some PHP and Python, everything talking over RabbitMQ and running on Kubernetes. Over the last year and a half I've worked across 40 services, owned epics end to end, and taken backend on-call shifts.
 
 ### Selected work
@@ -49,19 +51,20 @@ The code is private, so here's what it was about.
   <img src="https://skillicons.dev/icons?i=kubernetes,docker,gitlab,nginx,cloudflare,grafana,prometheus,sentry,jest&theme=dark" alt="Kubernetes, Docker, GitLab CI, nginx, Cloudflare, Grafana, Prometheus, Sentry, Jest" />
 </p>
 
-<img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white" alt="OpenSearch" />
-<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white" alt="ArgoCD" />
-<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
-<img src="https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white" alt="k6" />
-<img src="https://img.shields.io/badge/BullMQ-DC382D?style=flat" alt="BullMQ" />
-<img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat" alt="Langfuse" />
-<img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white" alt="Claude Code" />
+<p>
+  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white" alt="OpenSearch" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white" alt="ArgoCD" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+  <img src="https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white" alt="k6" />
+  <img src="https://img.shields.io/badge/BullMQ-DC382D?style=flat" alt="BullMQ" />
+  <img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat" alt="Langfuse" />
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white" alt="Claude Code" />
+</p>
 
 ### Activity
 
 <p>
-  <img src="https://raw.githubusercontent.com/sokolovgit/sokolovgit/output/terminal-stats.svg" width="560" alt="GitHub stats in a terminal window" />
-  <img src="assets/bonsai/bonsai.gif" width="200" alt="Pixel-art bonsai grown from my commit history" />
+  <img src="https://raw.githubusercontent.com/sokolovgit/sokolovgit/output/terminal-stats.svg" width="100%" alt="GitHub stats in a terminal window" />
 </p>
 
 <picture>
